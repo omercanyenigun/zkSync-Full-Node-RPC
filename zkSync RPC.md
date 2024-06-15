@@ -65,7 +65,7 @@ docker logs -f --tail 100 docker-compose-examples_external-node_1
 
 Loglardan CTRL-C ile çıkabilirsiniz.
 
-**RPC PORT ve GRAFANA (isteğe bağlı)**
+#RPC PORT ve GRAFANA (isteğe bağlı)
 
 Metamaska ekleyebilmemiz için port ayarı yapmamız gerekiyor.
 
