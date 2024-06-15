@@ -107,7 +107,7 @@ docker-compose -f mainnet-external-node-docker-compose.yml down
 docker-compose -f mainnet-external-node-docker-compose.yml up
 ```
 
-- **Metamask'a Ağ Olarak eklemek için**
+### Metamask'a Ağ Olarak eklemek için
 
 - **Metamaska ilk başta ekleme yaparsanız hata verebilir. Biraz zaman geçtikten sonra yada synced olduktan sonra da ekleyebilirsiniz.**
 
