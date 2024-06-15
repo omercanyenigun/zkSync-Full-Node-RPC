@@ -43,8 +43,7 @@ git clone https://github.com/codeesura/zksync-era.git
 ```
 
 ```python
-cd zksync-era/docs/guides/external-node
-cd docker-compose-examples
+zksync-era/docs/guides/external-node/docker-compose-examples
 ```
 
 ```python
