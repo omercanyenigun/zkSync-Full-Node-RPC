@@ -118,7 +118,7 @@ http://sunucu-ipsi:3000/d/0/external-node
 
 - **Full Node'unuz 8-10 saate senkronize olur. O zamana kadar blocklar ve grafana monitor ağağıdaki gibi görünür.**
 
-![alt text](https://i.hizliresim.com/1ijtawu.jpeg)
+![alt text](https://i.hizliresim.com/r29h9y9.png)
 
 ![alt text](https://i.hizliresim.com/duzl6k6.png)
 
