@@ -1,3 +1,6 @@
+
+![alt text](https://i.hizliresim.com/9ivrvu6.png)
+
 **Minimum Sistem Gereksinimleri**
 
 - **32 RAM**
