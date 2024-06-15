@@ -97,11 +97,19 @@ nano zksync-era/docs/guides/external-node/docker-compose-examples/mainnet-extern
 
 ```python
 cd zksync-era/docs/guides/external-node/docker-compose-examples
+```
+
+```python
 docker-compose -f mainnet-external-node-docker-compose.yml down
+```
+
+```python
 docker-compose -f mainnet-external-node-docker-compose.yml up
 ```
 
 - **Metamask'a Ağ Olarak eklemek için**
+
+- **Metamaska ilk başta ekleme yaparsanız hata verebilir. Biraz zaman geçtikten sonra yada synced olduktan sonra da ekleyebilirsiniz.**
 
 ```python
 Ağ adı: istediğiniz bir ad girebilirsiniz.
