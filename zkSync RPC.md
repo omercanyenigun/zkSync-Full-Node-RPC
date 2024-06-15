@@ -1,6 +1,6 @@
 **Minimum Sistem Gereksinimleri**
 
-- **32 CPU**
+- **32 RAM**
 - **500GB DISK**
 
 ```python
