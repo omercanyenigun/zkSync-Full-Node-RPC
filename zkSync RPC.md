@@ -128,6 +128,22 @@ http://sunucu-ipsi:3000/d/0/external-node
 
 ![alt text](https://i.hizliresim.com/cvmw69q.png)
 
+- **Sistem Kullanımı**
+
+```python
+htop
+```
+![alt text](https://i.hizliresim.com/33qd4ix.png)
+
+- **Disk Kullanımı**
+
+```python
+df -h
+```
+
+![alt text](https://i.hizliresim.com/8m45bvs.png)
+
+
 
 
 
