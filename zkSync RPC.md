@@ -23,6 +23,8 @@ sudo systemctl status docker
 docker --version
 ```
 
+![alt text](https://i.hizliresim.com/1h330hc.png)
+
 ```python
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
