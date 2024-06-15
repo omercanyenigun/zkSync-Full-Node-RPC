@@ -18,6 +18,9 @@ sudo apt install docker.io
 ```python
 sudo systemctl status docker
 ```
+![alt text](https://i.hizliresim.com/op8i2sq.png)
+
+CTRL-C ile çıkabilirsiniz.
 
 ```python
 docker --version
@@ -43,7 +46,7 @@ git clone https://github.com/codeesura/zksync-era.git
 ```
 
 ```python
-zksync-era/docs/guides/external-node/docker-compose-examples
+cd zksync-era/docs/guides/external-node/docker-compose-examples
 ```
 
 ```python
@@ -70,11 +73,12 @@ docker logs -f --tail 100 docker-compose-examples_external-node_1
 - **Metamaska ekleyebilmemiz için port ayarı yapmamız gerekiyor.**
 
 ```python
+cd
 nano zksync-era/docs/guides/external-node/docker-compose-examples/mainnet-external-node-docker-compose.yml
 ```
 - **Çıkan dosyada aşağıya inin external-node altındaki port ayarlarını aşağıdaki gibi yapın.**
 
-![alt text](https://i.hizliresim.com/n0gt8c4.png)
+![alt text](https://i.hizliresim.com/cpqem5q.png)
 
 - **Grafana üzerinden node durumunu izleyebilmek için yine aynı dosyayada
 aşağıdaki görselde olduğu gibi düzenleme yapmanız gerekiyor.**
@@ -89,6 +93,7 @@ nano zksync-era/docs/guides/external-node/docker-compose-examples/mainnet-extern
 - **Bu işlemden/işlemlerden sonra restart atalım.**
 
 ```python
+cd zksync-era/docs/guides/external-node/docker-compose-examples
 docker-compose -f mainnet-external-node-docker-compose.yml down
 docker-compose -f mainnet-external-node-docker-compose.yml up
 ```
@@ -102,7 +107,7 @@ RPC URL: http://sunucu-ipsi:3060
 
 Zincir Kimliği: 324
 
-Bloc Gezgini: https://explorer.zksync.io/blocks/
+Blok Gezgini: https://explorer.zksync.io/blocks/
 ```
 
 ![alt text](https://i.hizliresim.com/4ixy3wa.png)
