@@ -104,7 +104,7 @@ docker-compose -f mainnet-external-node-docker-compose.yml down
 ```
 
 ```python
-docker-compose -f mainnet-external-node-docker-compose.yml up
+docker-compose -f mainnet-external-node-docker-compose.yml up -d
 ```
 
 ### Metamask'a Ağ Olarak eklemek için
